@@ -1,4 +1,13 @@
+
+## 公众号 【小夭同学】
 ![gg.gif](http://blogimg.lieme.cn/FsaWonzTLc3IJVZgYDrjHdVEj3HR)
+
+## 有问题加微信 【wex_5201315】
+![goodog.png](http://blogimg.lieme.cn/FthzD1OheHpf4ApF72ReM54RPOND)
+
+# 本项目的前提是你有一个能在网页版微信登录的账号.如果没有，关闭本页面吧！！！
+
+[微信网页版登录测试](https://wx.qq.com/)
 
 # wepython
 Python + wxpy 为TA定制生活中的小助理
@@ -27,3 +36,5 @@ Python + wxpy 为TA定制生活中的小助理
 ## sync.py
 
 自动同步微信群指定用户消息发送给指定接收方
+
+
