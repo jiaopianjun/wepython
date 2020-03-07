@@ -39,6 +39,6 @@ Python + wxpy 为TA定制生活中的小助理
 
 ## avatorName.py
 
-爬取微信好友昵称和头像
+爬取你的微信好友昵称和头像
 
 
