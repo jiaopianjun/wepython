@@ -9,7 +9,7 @@ const config = require("./config")
 // 机器人名字
 const name = config.name
 // 管理群组列表
-const roomList = config.room.roomList
+const groupList = config.room.groupList
 
 // 消息监听回调
 module.exports = bot => {
@@ -79,9 +79,9 @@ module.exports = bot => {
 async function isAddRoom(msg) {
   // 关键字 加群 处理
   if (msg.text() == "加群") {
-    let roomListName = Object.keys(roomList)
-    let info = `${name}当前管理群聊有${roomListName.length}个，回复群聊名即可加入哦\n\n`
-    roomListName.map(v => {
+    let groupListName = Object.keys(groupList)
+    let info = `${name}当前管理群聊有${groupListName.length}个，回复群聊名即可加入哦\n\n`
+    groupListName.map(v => {
       info += "【" + v + "】" + "\n"
     })
     msg.say(info)
@@ -98,9 +98,9 @@ async function isAddRoom(msg) {
  */
 async function isRoomName(bot, msg) {
   // 回复信息为管理的群聊名
-  if (Object.keys(roomList).some(v => v == msg.text())) {
+  if (Object.keys(groupList).some(v => v == msg.text())) {
     // 通过群聊id获取到该群聊实例
-    const room = await bot.Room.find({ id: roomList[msg.text()] })
+    const room = await bot.Room.find({ id: groupList[msg.text()] })
 
     // 判断是否在房间中 在-提示并结束
     if (await room.has(msg.from())) {
