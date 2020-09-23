@@ -2,7 +2,7 @@
 ## 公众号 【小夭同学】
 ![gg.gif](http://blogimg.lieme.cn/FsaWonzTLc3IJVZgYDrjHdVEj3HR)
 
-## 有问题加微信 【wex_5201315】
+## 有问题加微信 【jiaopianbot】
 ![goodog.png](http://blogimg.lieme.cn/FthzD1OheHpf4ApF72ReM54RPOND)
 
 # 本项目的前提是你有一个能在网页版微信登录的账号.如果没有，关闭本页面吧！！！
